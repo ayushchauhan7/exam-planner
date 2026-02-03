@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 // Configure base URL (Change for production)
-const API_URL = "https://localhost:5000/api";
+const API_URL = "http://localhost:5000/api";
 
 export default function App() {
   const [view, setView] = useState("allocate"); // 'allocate' or 'manage'
